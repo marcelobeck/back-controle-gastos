@@ -1,4 +1,4 @@
-package config;
+package com.example.controle_gastos_api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
-package repositories;
+package com.example.controle_gastos_api.repositories;
 
-import models.Usuario;
+import com.example.controle_gastos_api.models.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

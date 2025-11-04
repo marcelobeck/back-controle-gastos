@@ -1,4 +1,4 @@
-package dtos;
+package com.example.controle_gastos_api.dtos;
 
 import java.time.LocalDateTime;
 

@@ -1,11 +1,11 @@
-package service;
+package com.example.controle_gastos_api.service;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import models.Usuario;
+import com.example.controle_gastos_api.models.Usuario;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import repositories.UsuarioRepository;
+import com.example.controle_gastos_api.repositories.UsuarioRepository;
 
 import java.util.Optional;
 

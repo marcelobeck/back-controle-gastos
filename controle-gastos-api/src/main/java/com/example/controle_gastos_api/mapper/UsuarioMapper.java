@@ -1,7 +1,7 @@
-package mapper;
-import dtos.RegistroDto;
-import dtos.UsuarioDto;
-import models.Usuario;
+package com.example.controle_gastos_api.mapper;
+import com.example.controle_gastos_api.dtos.RegistroDto;
+import com.example.controle_gastos_api.dtos.UsuarioDto;
+import com.example.controle_gastos_api.models.Usuario;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

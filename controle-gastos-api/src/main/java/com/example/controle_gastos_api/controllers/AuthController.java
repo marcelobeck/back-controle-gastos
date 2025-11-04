@@ -1,17 +1,17 @@
-package controllers;
+package com.example.controle_gastos_api.controllers;
 
-import dtos.LoginDto;
-import dtos.RegistroDto;
-import dtos.UsuarioDto;
+import com.example.controle_gastos_api.dtos.LoginDto;
+import com.example.controle_gastos_api.dtos.RegistroDto;
+import com.example.controle_gastos_api.dtos.UsuarioDto;
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import mapper.UsuarioMapper;
-import models.Usuario;
+import com.example.controle_gastos_api.mapper.UsuarioMapper;
+import com.example.controle_gastos_api.models.Usuario;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.UsuarioService;
+import com.example.controle_gastos_api.service.UsuarioService;
 
 @RestController
 @RequestMapping("/api/auth")
